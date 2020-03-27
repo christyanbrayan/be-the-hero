@@ -2,7 +2,7 @@
 
 - [x] **Conhecendo a OmniStack (23/03)**
 - [x] **Criando a base da aplicação (24/03)**
-- [ ] Construindo a interface web (25/03)
+- [x] **Construindo a interface web (25/03)**
 - [ ] Desenvolvendo o app mobile (26/03)
 - [ ] Funcionalidades avançadas (27/03)
 
