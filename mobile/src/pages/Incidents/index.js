@@ -11,16 +11,19 @@ import styles from './styles'
 
 export default function Incidents() {
   const [incidents, setIncidents] = useState([])
+  const [total, setTotal] = useState(0)
+
   const navigation = useNavigation()
 
-  function navigateToDetail() {
-    navigation.navigate('Detail')
+  function navigateToDetail(incident) {
+    navigation.navigate('Detail', { incident })
   }
 
   async function loadIncidents() {
     const response = await api.get('incidents')
 
     setIncidents(response.data)
+    setTotal(response.headers['x-total-count'])
   }
 
   useEffect(() => {
@@ -32,7 +35,7 @@ export default function Incidents() {
       <View style={styles.header}>
         <Image source={logoImg} />
         <Text style={styles.headerText}>
-          Total de <Text style={styles.headerTextBold}>0 casos</Text>.
+          Total de <Text style={styles.headerTextBold}>{total} casos</Text>.
         </Text>
       </View>
       <Text style={styles.title}> Bem-vindo! </Text>
@@ -47,11 +50,11 @@ export default function Incidents() {
           <Text style={styles.incidentValue}> {incident.title} </Text>
 
           <Text style={styles.incidentProperty}> VALOR: </Text>
-          <Text style={styles.incidentValue}> {incident.value} </Text>
+          <Text style={styles.incidentValue}> {Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)} </Text>
 
-          <TouchableOpacity style={styles.detailsButton} onPress={() => navigateToDetail()}>
+          <TouchableOpacity style={styles.detailsButton} onPress={() => navigateToDetail(incident)}>
             <Text style={styles.detailsButtonText}> Ver mais detalhes </Text>
-            <Feather name="arrow-right" size={16} />
+            <Feather name="arrow-right" size={16} color='#e02041' />
           </TouchableOpacity>
         </View>
       )} />
