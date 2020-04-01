@@ -18,7 +18,7 @@ A 11ª edição da Semana OmniStack, ocorrida entre 23/03 e 27/03 trouxe como pr
 
 Em uma semana foi desenvolvida uma aplicação do zero, dominando o backend, frontend e o mobile com uma única linguagem e uma única biblioteca de interfaces.
 
-[Layout]((https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1)) da aplicação no <img src="imgs/figma.png" alt="figma" height="20"> Figma.
+[Layout](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1) da aplicação no <img src="imgs/figma.png" alt="figma" height="20"> Figma.
 
 **&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
 
