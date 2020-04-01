@@ -26,7 +26,9 @@ Em uma semana foi desenvolvida uma aplicação do zero, dominando o backend, fro
 
 ## Para rodar a aplicação
 
-Execute ```npm install``` nas pastas backend, frontend e mobile
+Execute ```npm install``` nas pastas backend, frontend e mobile, para instalar as dependências
+
+Rode ```npm start``` nas pastas backend e frontend para utilizar a versão web. Acesse via **localhost:3000**
 
 ## Licença
 [MIT](https://github.com/christyanbrayan/be-the-hero/blob/master/LICENSE)
