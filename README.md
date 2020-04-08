@@ -32,6 +32,12 @@ Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, le
 
 ## Telas
 
+<p align="center">
+    <img alt="" title="" src="imgs/print1.png">
+</p>
+
+Veja também esse [vídeo](https://youtu.be/UygqW2eBJJA) com a demonstração das versões web e mobile rodando localmente.
+
 ---
 
 **&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
