@@ -4,7 +4,7 @@
     <img alt="" title="" src="imgs/logo.svg">
 </h1>
 
-<h2 align="center"> Aplicação para conectar ONGs e outras instituições a pessoas que tem disponibilidade de ajudar </h2>
+<h2 align="center"> Aplicação para conectar ONGs e outras instituições a pessoas que tem disponibilidade para ajudar </h2>
 
 <h3 align="center"> Criada com a stack <img src="imgs/react.png" alt="react" height="18"> React, <img src="imgs/react-native.png" alt="react-native" height="18"> React Native, <img src="imgs/node.png" alt="node" height="18"> Node e <img src="imgs/sqlite.png" alt="node" height="18"> SQLite </h3>
 
@@ -38,6 +38,10 @@ Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, le
     <img alt="" title="" src="imgs/print3.png">
     <img alt="" title="" src="imgs/print4.png">
     <img alt="" title="" src="imgs/print5.png">
+    <img alt="" title="" src="imgs/print6.png">
+    <img alt="" title="" src="imgs/print7.png">
+    <img alt="" title="" src="imgs/print8.png">
+    <img alt="" title="" src="imgs/print9.png">
     <img alt="" title="" src="imgs/print-insomnia.png">
 </p>
 
@@ -54,4 +58,4 @@ Veja também esse [vídeo](https://youtu.be/UygqW2eBJJA) com a demonstração da
 
 ---
 
-<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/christyanbrayan" target="_blank">Christyan Brayan</a> </h4>
+<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/christyanbrayan" target="_blank">christyanbrayan</a> </h4>
